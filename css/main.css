@@ -1,0 +1,34 @@
+html {
+-moz-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+text-size-adjust: 100%; 
+    font-size: 100%
+    font-family: sans-serif;} 
+}
+body {
+    margin:0;
+    padding:0;}
+
+h1 {
+    color:purple;
+}
+ figcaption {
+    margin: 0;
+    color: grey;
+}
+
+dl{
+    border: 1px solid red; /*Overflow hidden can be used to as a clearfix. It reminds the <dl> to wrap around its floated children*/
+}
+dt{
+    float:left;
+    clear:left; /* Force the <dt> underneath anything floated left */
+    width: 8rem; /* here we want the width of the dt's to be as long as the widest word so that we can evenly place our values beside them */
+}
+
+dd{
+    float: left;
+    margin:0;
+    padding:0;
+}
